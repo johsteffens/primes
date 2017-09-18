@@ -1,4 +1,4 @@
-// Copyright (C) 2017 Johannes Steffens <johannes.b.steffens@gmail.com>. All rights reserved.
+// Copyright (C) 2017 Johannes Steffens <johannes <dot> b <dot> steffens <at> gmail.com>. All rights reserved.
 
 // Licensed under the MIT License (https://opensource.org/licenses/MIT)
 
