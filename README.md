@@ -2,7 +2,7 @@
 
 primes.py and primes.c do the same thing:
 *   Compute all prime numbers up to including a specified maximum.
-*   Store all prmes in an array.
+*   Store all primes in an array.
 *   Print the number of primes: *Pi(p_max)*
 
 The primary purpose is testing/demonstrating some key differences between a C and a Python implementations.
