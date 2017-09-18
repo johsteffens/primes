@@ -3,7 +3,7 @@
 primes.py and primes.c do the same thing:
 *   Compute all prime numbers up to including a specified maximum.
 *   Store all prmes in an array.
-*   Print the number of primes Pi(p_max).
+*   Print the number of primes: *Pi(p_max)*
 
 The motivation was to write a sort routine for testing/demonstrating key differences between C and Python implementations.
 You can run them as follows:
