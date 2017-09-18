@@ -12,7 +12,7 @@ You can run them as follows:
 
 `p_max` specifies the upper limit for the calculation. If not specified, the routine assumes `p_max=1000000`.
 
-My object was to go for the simplest approach in either language in a transparent way. 
+I am aiming for the simplest approach in either language in a transparent way. 
 *(There are algorithmic and syntactic ways to optimize either calculation.)*
 
 The python code is shorter, quicker to implement and to comprehend. The C version executes up to a factor 10 faster, though.
