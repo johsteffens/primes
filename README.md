@@ -17,4 +17,4 @@ I am aiming for the simplest approach in either language.
 
 Not surprisingly, the immediate benefits are ...
 * **Python:** Simplicity! Quicker to implement and easier to comprehend.
-* **C:** Runtime efficiency! Execution speed is up to a factor 10 faster.
+* **C:** Runtime efficiency! Execution speed is up to a factor 10 higher.
