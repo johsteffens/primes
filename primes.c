@@ -21,8 +21,8 @@ int main( int arc, const char** argv )
     {
         int is_prime = 1;
         size_t j;
-	    for( j = 0; j < p_size; j++ )
-	    {
+        for( j = 0; j < p_size; j++ )
+        {
             int p = p_arr[ j ];
             if( p * p > i ) break;
             if( i % p == 0 )
