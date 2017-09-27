@@ -25,5 +25,6 @@ while i <= p_max:
    if is_prime: primes.append( i )
    i += 1
 
+print 'largest prime <= %i: %i' % ( p_max, primes[ len( primes ) -1 ] )
 print 'Pi(%i) = %i' % ( p_max, len( primes ) )
 

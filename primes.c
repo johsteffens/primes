@@ -42,7 +42,8 @@ int main( int arc, const char** argv )
         }
     }
 
-    if( p_arr != NULL ) free( p_arr );
-
+    printf( "largest prime <= %i: %i\n", p_max, p_arr[ p_size - 1 ] );
     printf( "Pi(%i) = %i\n", p_max, p_size );
+
+    if( p_arr != NULL ) free( p_arr );
 }
