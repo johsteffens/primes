@@ -5,7 +5,7 @@ primes.py and primes.c do the same thing:
 *   Store all primes in an array.
 *   Print the number of primes: *Pi(p_max)*
 
-The primary purpose is testing/demonstrating some key differences between a C and a Python implementations.
+The primary purpose is testing/demonstrating some key differences between the C and a Python programming language.
 You can run them as follows:
 * `python primes.py [p_max]`
 * `gcc primes.c; a.out [p_max]`
