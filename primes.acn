@@ -1,0 +1,33 @@
+// Copyright (C) 2018 Johannes B. Steffens. All rights reserved.
+// Licensed under the MIT License (https://opensource.org/licenses/MIT)
+
+// Usage: actinon primes.acn [p_max]
+// Default: p_max = 1000000
+
+<mclosure_s></>
+
+def p_max = 1000000;
+if( program_args.size() > 2 ) p_max = string_to_num( program_args[ 2 ] );
+
+def primes = [];
+def i = 2;
+
+while( i <= p_max )
+{
+    def is_prime = true;
+    def j = 0;
+    def run = true;
+    while( ( j < primes.size() ) & run )
+    {
+        def p = primes[ j ];
+        if( ( i % p ) == 0 ) run = ( is_prime = false );        
+        if( p * p > i ) run = false;
+        j += 1;
+    }();
+    if( is_prime ) primes.push( i );
+    i += 1;
+}();
+
+?? "largest prime <= " + p_max + ": " + primes[ primes.size() - 1 ];
+?? "pi(" + p_max + ") = " + primes.size();
+
