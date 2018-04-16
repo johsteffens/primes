@@ -14,8 +14,4 @@ You can run them as follows:
 
 If `p_max` is not specified, the routine sets `p_max=1000000`.
 
-I am aiming for the simplest approach in either language. 
-*(There are algorithmic and syntactic ways to optimize either calculation.)*
-
-Note: **Actinon** is the interpreter of the [Actinon Ray Tracer](https://github.com/johsteffens/actinon). The interpreter is not meant to run very fast (only the renderer is supposed to be fast) but we want to show that the underlying langue is general purpose, too.
-
+Note: **Actinon** is the interpreter of the [Actinon Ray Tracer](https://github.com/johsteffens/actinon).
