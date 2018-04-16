@@ -1,5 +1,4 @@
 # Prime generation in C, Python, Actinon
-The idea is showing the appearance and behavor of a simple algorithm across languages.
 
 primes.c, primes.py and primes.acn do the same thing:
 *   Compute all prime numbers up to including a specified maximum `p_max`
@@ -15,3 +14,6 @@ You can run them as follows:
 If `p_max` is not specified, the routine sets `p_max=1000000`.
 
 Note: **Actinon** is the interpreter of the [Actinon Ray Tracer](https://github.com/johsteffens/actinon).
+
+## Motivation
+Analyzing syntax and runtime behavior of a simple algorithm across languages.
