@@ -13,7 +13,7 @@ You can run them as follows:
 
 If `p_max` is not specified, the routine sets `p_max=1000000`.
 
-Note: **Actinon** is the interpreter of the [Actinon Ray Tracer](https://github.com/johsteffens/actinon).
+Note: **Actinon** is the interpreted language of the [Actinon Ray Tracer](https://github.com/johsteffens/actinon).
 
 ## Motivation
 Analyzing syntax and runtime behavior of a simple algorithm across languages.
